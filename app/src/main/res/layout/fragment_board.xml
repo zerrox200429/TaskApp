@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboard.BoardFragment">
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/sasuke"
+    />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Привет"
+        android:textSize="50dp"/>
+
+
+</RelativeLayout>
